@@ -91,6 +91,16 @@ body {
     margin-right: 5rem;
 }
 
+.traverse {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-prev i {
+    margin: 0 .2rem 0 0;
+}
+
 .problem,
 .top {
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
@@ -110,6 +120,7 @@ body {
 }
 
 .btn-more {
+    border-radius: .1rem;
     margin-top: 1.5rem;
     font-size: 1rem;
     background-color: var(--teal-light);
