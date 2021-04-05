@@ -92,7 +92,6 @@ body {
 }
 
 .traverse {
-    margin-bottom: 5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -260,11 +259,15 @@ body {
 @media screen and (max-width: 560px) {
     .navigation {
         flex-direction: column;
-        padding: 1rem 0;
+        adding: 1rem 0;
     }
 
     .navigation img {
         margin-bottom: 1rem;
+    }
+
+    .traverse {
+        margin-bottom: 5rem;
     }
 
     .main {
