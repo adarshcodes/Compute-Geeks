@@ -34,44 +34,69 @@
         <section class="main">
             <div class="problems">
                 <div class="problem">
-                    <h2 class="heading-secondary">Problem 1</h2>
-                    <p class="problem-text">Given an unsorted array A of size N that contains only non-negative
-                        integers, find a continuous sub-array which adds to a given number S.
-                        <br>
-                        <br>
-                        Expected Time Complexity: O(N)
-                        <br>
-                        Expected Auxiliary Space: O(1)
-                        <br>
-                        <br>
-                        You don't need to read input or print anything. The task is to complete the function
-                        subarraySum()
-                        which takes arr, N and S as input parameters and returns a list containing the starting and
-                        ending
-                        positions of the first such occurring subarray from the left where sum equals to S. The two
-                        indexes
-                        in the list should be according to 1-based indexing. If no such subarray is found, return -1.
-                    </p>
-                    <div class="btn-more">See more <i class="fal fa-arrow-right"></i></div>
-                </div>
-                <div class="problem">
-                    <h2 class="heading-secondary">Problem 2</h2>
-                    <p class="problem-text">Given a string S, find the longest palindromic substring in S. Substring of
-                        string S: S[ i . . . . j ] where 0 ≤ i ≤ j < len(S). Palindrome string: A string which reads the
-                            same backwards. More formally, S is palindrome if reverse(S)=S. Incase of conflict, return
-                            the substring which occurs first ( with the least starting index ). <br>
+                    <div class="cont-1">
+                        <h2 class="heading-secondary">Problem 1</h2>
+                        <p class="problem-text">Given an unsorted array A of size N that contains only non-negative
+                            integers, find a continuous sub-array which adds to a given number S.
+                            <br>
+                            <br>
+                            Expected Time Complexity: O(N)
+                            <br>
+                            Expected Auxiliary Space: O(1)
+                            <br>
+                            <br>
+                            You don't need to read input or print anything. The task is to complete the function
+                            subarraySum()
+                            which takes arr, N and S as input parameters and returns a list containing the starting and
+                            ending
+                            positions of the first such occurring subarray from the left where sum equals to S. The two
+                            indexes
+                            in the list should be according to 1-based indexing. If no such subarray is found, return
+                            -1.
+                            <br>
                             <br>
                             NOTE: Required Time Complexity O(n2).
                             <br>
                             <br>Explanation:
-                            Testcase 1: The longest palindrome string present in the given string is "aabbaa".</p>
-                    <div class="btn-more">See more <i class="fal fa-arrow-right"></i></div>
+                            Testcase 1: The longest palindrome string present in the given string is "aabbaa".
+                        </p>
+                    </div>
+                    <div class="btn-more" id="btn-main-1">See more <i class="fal fa-arrow-right"></i></div>
+                </div>
+                <div class="problem">
+                    <div class="cont-2">
+                        <h2 class="heading-secondary">Problem 2</h2>
+                        <p class="problem-text">Given a string S, find the longest palindromic substring in S. Substring
+                            of
+                            string S: S[ i . . . . j ] where 0 ≤ i ≤ j < len(S). Palindrome string: A string which reads
+                                the same backwards. More formally, S is palindrome if reverse(S)=S. Incase of conflict,
+                                return the substring which occurs first ( with the least starting index ). <br>
+                                <br>
+                                NOTE: Required Time Complexity O(n2).
+                                <br>
+                                <br>Explanation:
+                                Testcase 1: The longest palindrome string present in the given string is "aabbaa".
+                                <br>
+                                <br>
+                                You don't need to read input or print anything. The task is to complete the function
+                                subarraySum()
+                                which takes arr, N and S as input parameters and returns a list containing the starting
+                                and
+                                ending
+                                positions of the first such occurring subarray from the left where sum equals to S. The
+                                two
+                                indexes
+                                in the list should be according to 1-based indexing. If no such subarray is found,
+                                return
+                                -1.</p>
+                    </div>
+                    <div class="btn-more" id="btn-main-2">See more <i class="fal fa-arrow-right"></i></div>
                 </div>
 
                 <div class="traverse">
                     <div class="btn-more btn-traverse btn-prev"><i class="fal fa-arrow-left"></i> Previous</div>
 
-                    <div class="btn-more btn-traverse">See more <i class="fal fa-arrow-right"></i></div>
+                    <div class="btn-more btn-traverse">Next <i class="fal fa-arrow-right"></i></div>
                 </div>
             </div>
 
@@ -80,22 +105,29 @@
             <div class="sidebar">
                 <div class="top-problem top">
                     <h3 class="heading-tertiary">Top Rated Problems</h3>
-                    <ol class="list" type="1">
+                    <ol class="list-1" type="1">
                         <li class="list-items">How is a bubble sort algorithm implemented?</li>
                         <li class="list-items">How is a merge sort algorithm implemented?</li>
                         <li class="list-items">How do you count the occurrence of a given character in a string?</li>
                         <li class="list-items">How do you print the first non-repeated character from a string?</li>
-                        <div class="btn-more btn-top">See more <i class="fal fa-arrow-right"></i></div>
+                        <li class="list-items">How is a merge sort algorithm implemented?</li>
+                        <li class="list-items">How do you count the occurrence of a given character in a string?</li>
+                        <li class="list-items">How do you print the first non-repeated character from a string?</li>
                     </ol>
+
+                    <div class="btn-more btn-top" id="btn-top-1">See more <i class="fal fa-arrow-right"></i></div>
                 </div>
                 <div class="top-language top">
                     <h3 class="heading-tertiary">Top Rated Language</h3>
-                    <ol class="list" type="1">
+                    <ol class="list-2" type="1">
                         <li class="list-items">JavaScript</li>
                         <li class="list-items">Python</li>
                         <li class="list-items">C/C++</li>
-                        <div class="btn-more btn-top">See more <i class="fal fa-arrow-right"></i></div>
+                        <li class="list-items">Scala</li>
+                        <li class="list-items">Ruby</li>
+                        <li class="list-items">Go</li>
                     </ol>
+                    <div class="btn-more btn-top" id="btn-top-2">See more <i class="fal fa-arrow-right"></i></div>
                 </div>
             </div>
         </section>

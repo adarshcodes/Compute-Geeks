@@ -3,7 +3,7 @@
 :root {
     --dark-grey: #4d4d4d;
     --text-violet: #58668b;
-    --teal: #76b4bd;
+    --teal: #76b4bf;
     --teal-light: #bdeaee;
     --white-primary: #fff;
     --white-secondary: #ebf4f6;
@@ -157,6 +157,35 @@ body {
     margin-bottom: .5rem;
 }
 
+.list-1 {
+    padding: 0 1rem;
+    height: 12rem;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.list-2 {
+    padding: 0 1rem;
+    height: 4.8rem;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.height-recover {
+    height: auto !important;
+    transition: all .5s;
+}
+
+.cont-1 {
+    height: 15rem;
+    overflow: hidden;
+}
+
+.cont-2 {
+    height: 12rem;
+    overflow: hidden;
+}
+
 .list-items {
     font-size: .9rem;
     margin-bottom: .5rem;
@@ -167,7 +196,6 @@ body {
     font-size: .8rem;
     width: 5.5rem;
 }
-
 
 
 /* footer */
